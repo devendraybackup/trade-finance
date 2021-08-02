@@ -1,3 +1,4 @@
+export HYPERLegerFabricSamplePATH=${PWD}/../fabric-samples
 ./network.sh down
 ./network.sh up createChannel  -s couchdb
 #./network.sh deployCC -ccn basic -ccp ../chaincode/TFBC/go/ -ccl go
